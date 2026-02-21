@@ -4,7 +4,8 @@
 
 ## Problem Statement
 
-This project addresses a multi-label image classification task where each image may contain multiple attributes. The objective is to fine-tune a pretrained deep learning model to predict the presence or absence of four attributes while handling missing labels and class imbalance.
+This project addresses a multi-label image classification task where each image may contain multiple attributes. 
+The objective is to fine-tune a pretrained deep learning model to predict the presence or absence of four attributes while handling missing labels and class imbalance.
 
 ---
 
@@ -142,7 +143,9 @@ To reproduce results:
 ## Author
 
 Rushda Aslami
+
 MSc Data Science
+
 GitHub: [https://github.com/rushda-code](https://github.com/rushda-code)
 
 ---
