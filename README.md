@@ -140,6 +140,12 @@ To reproduce results:
 
 ---
 
+## Possible Improvements
+
+Due to time constraints, advanced techniques such as data augmentation (random flips, rotations, color jitter), learning rate scheduling, early stopping, threshold tuning, and focal loss could further improve performance. These techniques can help improve generalization, especially for highly imbalanced attributes like attr4.
+
+----
+
 ## Author
 
 Rushda Aslami
