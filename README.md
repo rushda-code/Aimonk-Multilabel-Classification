@@ -81,7 +81,10 @@ Binary Cross-Entropy with logits was used for multi-label learning.
 * Epochs: 5
 * Custom Masked + Weighted BCE Loss
 
-Training loss decreased steadily while validation loss remained stable, indicating controlled learning without aggressive overfitting.
+Training loss decreased steadily while validation loss remained relatively stable, indicating controlled learning without severe overfitting
+
+Given the relatively small dataset size, the pretrained backbone was kept frozen to reduce the risk of overfitting. 
+Early stopping after 5 epochs was chosen as validation loss began to plateau, indicating that further training could lead to overfitting.
 
 ---
 
